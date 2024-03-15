@@ -1,0 +1,281 @@
+/* We will be making CSS of the portfolio website */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Edit the body */
+body {
+    background-color: #fff;
+    transition: 4s;
+}
+
+/* making img */
+.my_img_fixed {
+    position: absolute;
+    height: 140mm;
+    margin-top: 0px;
+    display: flex;
+}
+
+img.my_img_fixed:hover {
+    margin-left: 25px;
+    transition: .7s;
+    transition-delay: 1s;
+}
+
+/* Editing my name */
+.div_name {
+    color: #161515;
+    margin-left: 600px;
+    margin-top: 60px;
+}
+
+/* Make your intro */
+.p1intro {
+    font-family: 'Arial';
+}
+
+.h1_name {
+    font-family: 'Ravie';
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+/* Editing web developer */
+.myself {
+    margin-left: 600px;
+    margin-top: 5vw;
+}
+
+.about_me {
+    margin-top: 300px;
+    margin-left: 3rem;
+}
+
+/* Edit your skills */
+.html_skills {
+    width: 20rem;
+    background-color: grey;
+}
+
+/* Making percentage bar  */
+.html_percent {
+    color: #fff;
+    background-color: black;
+    width: 16rem;
+}
+
+.js_skills {
+    background-color: #808080;
+    width: 20rem;
+}
+
+.js_percent {
+    width: 12%;
+    background-color: #000;
+    color: #fff;
+}
+
+.h1_1 {
+    font-size: 40px;
+    font-family: 'Monotype Corsiva';
+}
+
+.css_skills {
+    width: 20rem;
+    background-color: grey;
+}
+
+.css_percent {
+    width: 79%;
+    background-color: #000;
+    color: #fff;
+}
+
+/**Write about your projects**/
+.h3_projects {
+    margin-left: 7px;
+    font-family: 'Monotype Corsiva';
+    font-size: 1cm;
+    margin-top: 10px;
+}
+
+.my_projects_1 {
+    color: black;
+    font-family: 'Arial';
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* Some lines about your education */
+.education {
+    margin-top: 14px;
+}
+
+.education h3 {
+    font-size: .9cm;
+    font-family: 'Monotype Corsiva';
+    margin-top: 19px;
+}
+
+.education h4 {
+    font-size: .6cm;
+    font-family: 'Modern No.20';
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.education p {
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: .7rem;
+}
+
+.fa-phone {
+    height: 30px;
+    width: 20px;
+    margin-top: 10px;
+}
+
+.contact {
+    margin-top: 20px;
+    font-size: 1cm;
+    font-family: 'Monotype Corsiva';
+}
+
+.contact_p {
+    font-size: 17px;
+    font-family: 'Arial';
+}
+
+.fa-envelope {
+    height: auto;
+    width: auto;
+}
+
+.h3_connect {
+    font-size: 1cm;
+    font-family: 'Monotype Corsiva';
+    margin-top: 20px;
+}
+
+.connect_with_me input {
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-color: #000;
+    border-width: 2px;
+    height: 40px;
+    width: 330px;
+    font-size: 20px;
+    box-shadow: 4px 2px 3px 1px cyan;
+}
+
+.connect_with_me input:active {
+    text-align: left;
+    justify-content: left;
+}
+
+.connect_button {
+    margin-top: 10px;
+    height: 40px;
+    width: 140px;
+    background-color: #000;
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Arial';
+    font-size: 16px;
+    box-shadow: 7px 3px red;
+}
+
+.connect_button:hover {
+    background-color: #0000;
+    color: black;
+    transition: .54s;
+    box-shadow: 4px 2px blue;
+}
+
+.footer1 {
+    background-color: #333131;
+    height: fit-content;
+    margin-top: 20px;
+}
+
+.fa-facebook {
+    height: 1cm;
+    width: 1cm;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.fa-x-twitter {
+    height: auto;
+    width: auto;
+    color: #fff;
+}
+
+.fa-whatsapp {
+    height: auto;
+    width: auto;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.fa-instagram {
+    height: auto;
+    width: auto;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.p_footer {
+    color: white;
+    margin-left: 20px;
+    font-family: 'Arial';
+}
+
+.fa-location-dot {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+.connect2:active {
+    font-size: 2px;
+}
+
+.last_imgs i:hover {
+    color: rgb(199, 169, 38);
+}
+
+.connect_button a {
+    text-decoration: none;
+    color: white;
+}
+
+.connect_button a:hover {
+    color: #000;
+}
+
+.fa-copyright {
+    margin-left: 4px;
+    margin-right: 5px;
+}
+
+.connect-button-a:hover {
+    color: #000;
+    text-decoration: underline;
+    transition: ease-in-out 3ms;
+}
+
+.connect_button:hover {
+    color: #000;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: .6s ease-in-out;
+}
